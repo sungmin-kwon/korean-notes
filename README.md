@@ -13,8 +13,10 @@ The only client-side JavaScript is the find box on the index and the theme butto
 
 ## Writing a note
 
-Notes are written in Korean. For voice, Korean conventions (section 1a), structure, accuracy
-rules and a self-check list, see [`WRITING.md`](WRITING.md).
+Notes are written in Korean. For voice, structure, accuracy rules and a self-check list, see
+[`WRITING.md`](WRITING.md). For the Korean itself (register, standard translations of terms,
+punctuation, citation format, common machine-translation slips), see the Korean style sheet
+[`STYLE-KO.md`](STYLE-KO.md).
 
 Every note is one Markdown file in `src/content/notes/`. The file name, in Latin letters, becomes
 its URL (`src/content/notes/theoretical-sampling.md` → `/notes/theoretical-sampling/`).
