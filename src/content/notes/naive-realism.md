@@ -45,7 +45,7 @@ model: [Mistral Large 4]
 
 ## 참고문헌
 
-- 이기혁, 〈비판적 실재론이 상실시키는 사회과학의 가능성〉, 《담론201》 24(1), 73–121 (2021). [doi:10.17789/discou.2021.24.1.003](https://doi.org/10.17789/discou.2021.24.1.003)
+- 이기혁, 〈비판적 실재론이 상실시키는 사회과학의 가능성〉, 》담론201《 24(1), 73–121 (2021). [doi:10.17789/discou.2021.24.1.003](https://doi.org/10.17789/discou.2021.24.1.003)
 - M. S. Archer, R. Bhaskar, A. Collier, T. Lawson, & A. Norrie (eds.), *Critical Realism: Essential Readings* (Routledge, 1998; Routledge 재간행, 2013). [doi:10.4324/9781315008592](https://doi.org/10.4324/9781315008592)
 - R. Bhaskar, *A Realist Theory of Science* (Verso, 1975; Routledge 재간행, 2013). [doi:10.4324/9780203090732](https://doi.org/10.4324/9780203090732)
 - R. Bhaskar, *The Possibility of Naturalism: A Philosophical Critique of the Contemporary Human Sciences* (Humanities Press, 1979; Routledge 재간행, 2014). [doi:10.4324/9781315756332](https://doi.org/10.4324/9781315756332)
