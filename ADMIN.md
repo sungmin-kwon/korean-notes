@@ -8,7 +8,7 @@ This file is not deployed, but the repository is public, so anyone can read it a
 
 | status | date | note | tags | model |
 | --- | --- | --- | --- | --- |
-| visible | 2026-11-11 | [그라제리안 근거이론: 창발과 강제](src/content/notes/glaserian-emergence-vs-forcing.md) | 근거이론 | Mistral Large 4 |
+| visible | 2026-11-11 | [글레이저의 근거이론: 창발과 강제](src/content/notes/glaserian-emergence-vs-forcing.md) | 근거이론 | Mistral Large 4 |
 | visible | 2026-11-11 | [근거이론, 자료에서 이론으로](src/content/notes/grounded-theory-first-look.md) | 근거이론, 방법론 | Claude Opus 5.5 |
 | visible | 2026-11-11 | [소박한 실재론: 보이는 대로가 전부는 아니다](src/content/notes/naive-realism.md) | 실재론 | Mistral Large 4 |
 
