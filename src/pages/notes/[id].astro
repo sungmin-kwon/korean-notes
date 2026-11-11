@@ -1,0 +1,73 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import {
+  backlinks,
+  getNotes,
+  href,
+  isShort,
+  isoDate,
+  label,
+  noteHref,
+  readingMinutes,
+  tagHref,
+} from '../../lib/notes';
+import { DISTILLATE_LABEL } from '../../lib/site';
+import { UI, minutes } from '../../lib/i18n';
+
+export async function getStaticPaths() {
+  const notes = await getNotes();
+  return notes.map((note, i) => ({
+    params: { id: note.id },
+    props: { note, older: notes[i + 1] ?? null, newer: notes[i - 1] ?? null, all: notes },
+  }));
+}
+
+const { note, older, newer, all } = Astro.props;
+const { Content } = await render(note);
+const { title, date, updated, tags, summary, distillate, rough } = note.data;
+const linkedFrom = backlinks(note, all);
+---
+
+<Base title={label(note)} description={summary ?? distillate}>
+  <article class="entry">
+    <p class="back"><a href={href()}>{UI.back}</a></p>
+
+    <p class="entry-meta">
+      <time datetime={isoDate(date)}>{isoDate(date)}</time>
+      {updated && <> · {UI.updated} <time datetime={isoDate(updated)}>{isoDate(updated)}</time></>}
+      {tags.map((t) => <> · <a href={tagHref(t)}>{t}</a></>)}
+      {rough && <> · <a class="rough" href={tagHref('rough')}>{UI.rough}</a></>}
+      {!isShort(note) && <> · {minutes(readingMinutes(note))}</>}
+    </p>
+
+    {title && <h1>{title}</h1>}
+
+    {distillate && (
+      <aside class="distillate" aria-label={DISTILLATE_LABEL}>
+        <p class="label">{DISTILLATE_LABEL}</p>
+        <p>{distillate}</p>
+      </aside>
+    )}
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    {linkedFrom.length > 0 && (
+      <section class="linked-from">
+        <h2 class="label">{UI.linkedFrom}</h2>
+        <ul>
+          {linkedFrom.map((n) => (
+            <li><a href={noteHref(n)}>{label(n)}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <nav class="neighbours" aria-label={UI.neighbours}>
+      {older ? <a href={noteHref(older)}>← {label(older, 48)}</a> : <span />}
+      {newer ? <a href={noteHref(newer)}>{label(newer, 48)} →</a> : <a href={href()}>{UI.toIndex}</a>}
+    </nav>
+  </article>
+</Base>
