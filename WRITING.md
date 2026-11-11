@@ -165,10 +165,21 @@ model: [Claude Opus 5.5]
 ```
 
 **A long note** has a title, `summary`, `distillate`, and sections. The existing long notes run
-1,500–3,000 words. Length should come from worked detail, not from repetition.
+1,500–3,000 words. Length should come from worked detail, not from repetition. **In Korean,
+aim for about 4,500–8,000 characters of body text, counting spaces** (not counting frontmatter
+and 참고문헌). An English word comes to roughly 2.5–3 Korean characters, so this is about the
+same depth. A Korean draft under about 3,500 characters is usually a summary,
+not a note: go further into the worked example, the reasoning behind each position and what it
+changes in practice.
 
-Use `rough: true` for a note that is honest thinking-in-progress: unchecked numbers, open
-questions, an argument you're not sure of. Say in the text what is unchecked.
+Use `rough: true` (shown as 미완) for a note that is honest thinking-in-progress: unchecked
+numbers, open questions, an argument you're not sure of. Say in the text what is unchecked.
+**Not being able to read a book page by page is not, by itself, a reason for `rough`.** A claim
+about a book is checked when it rests on the book's table of contents or publisher description,
+on a peer-reviewed source whose abstract you read and that states the claim, or on a passage you
+quote. Leave `rough` off when every claim is checked that way, and list what rests on secondary
+sources in the PR's **Not verified**. Use `rough` only when a claim in the note itself is
+uncertain or contested and the text says so.
 
 ## 4. The summary and the distillate
 
@@ -508,9 +519,11 @@ separate review pass took place.
 These notes show the target quality. Give a drafting model the one closest to the
 new note's topic:
 
-- `grounded-theory-first-look.md` (`근거이론`, `방법론`): the site's first sample note. One
-  made-up worked example (three interview excerpts) carried through every section, Korean terms
-  with the originals, a 참고문헌 list. It is marked `rough` because its last section has not been
-  checked against the primary sources yet.
+- `glaserian-emergence-vs-forcing.md` (`근거이론`): one made-up worked example (three interview
+  excerpts) carried through every section, each position attributed to its author, a comparison
+  table, Korean terms with the originals, a 참고문헌 list.
+- `naive-realism.md` (`실재론`): a made-up survey example with computed numbers, two look-alike
+  distinctions kept apart (domains and dimensions), and what the theory changes in research
+  practice.
 
 When a new note becomes a better example, add it here and add any new trap to section 7.
