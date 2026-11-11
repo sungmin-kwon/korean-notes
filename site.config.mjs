@@ -24,7 +24,7 @@ export const SITE = {
   allowAffiliation: false,
   // Old paths (without the base) that send readers elsewhere, e.g. notes that moved to a
   // sibling site: { '/notes/old-id': 'https://…/notes/old-id/' }.
-  redirects: {},
+  redirects: { '/notes/grounded-theory-first-look': 'https://sungmin-kwon.github.io/korean-notes/notes/glaserian-emergence-vs-forcing/' },
   // Single interface strings to override (see src/lib/i18n.ts); the Korean set is built in.
   ui: {},
   // Web fonts. IBM Plex Sans KR is the Korean member of the Plex family the other sites use,

@@ -53,11 +53,15 @@
 | open / axial / selective coding | 개방 코딩 / 축 코딩 / 선택 코딩 | |
 | category / property / dimension | 범주 / 속성 / 차원 | |
 | core category | 핵심 범주 | |
+| theoretical coding, coding family | 이론적 코딩, 코딩 가족 | 글레이저 |
 | memo, memo-writing | 메모, 메모 쓰기 | |
 | paradigm model | 패러다임 모형 | 스트라우스와 코빈 |
 | constructivist grounded theory | 구성주의 근거이론 | 차마즈 |
 | critical realism | 비판적 실재론 | |
 | naïve realism | 소박한 실재론 | |
+| empirical realism | 경험적 실재론 | 바스카가 비판한 흄식 입장 |
+| open / closed system | 열린 체계 / 닫힌 체계 | |
+| extensive / intensive research | 외연적 연구 / 내포적 연구 | 세이어. 내포적 연구는 집약적 연구라고도 한다 |
 | the real / the actual / the empirical | 실재적 영역 / 현실적 영역 / 경험적 영역 | 번역이 여럿이다. 처음에 원어를 밝힌다 |
 | generative mechanism | 발생기제 | 생성기제라고도 한다 |
 | intransitive / transitive dimension | 자동적 차원 / 타동적 차원 | |

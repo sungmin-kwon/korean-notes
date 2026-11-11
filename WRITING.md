@@ -165,10 +165,21 @@ model: [Claude Opus 5.5]
 ```
 
 **A long note** has a title, `summary`, `distillate`, and sections. The existing long notes run
-1,500–3,000 words. Length should come from worked detail, not from repetition.
+1,500–3,000 words. Length should come from worked detail, not from repetition. **In Korean,
+aim for about 4,500–8,000 characters of body text, counting spaces** (not counting frontmatter
+and 참고문헌). An English word comes to roughly 2.5–3 Korean characters, so this is about the
+same depth. A Korean draft under about 3,500 characters is usually a summary,
+not a note: go further into the worked example, the reasoning behind each position and what it
+changes in practice.
 
-Use `rough: true` for a note that is honest thinking-in-progress: unchecked numbers, open
-questions, an argument you're not sure of. Say in the text what is unchecked.
+Use `rough: true` (shown as 미완) for a note that is honest thinking-in-progress: unchecked
+numbers, open questions, an argument you're not sure of. Say in the text what is unchecked.
+**Not being able to read a book page by page is not, by itself, a reason for `rough`.** A claim
+about a book is checked when it rests on the book's table of contents or publisher description,
+on a peer-reviewed source whose abstract you read and that states the claim, or on a passage you
+quote. Leave `rough` off when every claim is checked that way, and list what rests on secondary
+sources in the PR's **Not verified**. Use `rough` only when a claim in the note itself is
+uncertain or contested and the text says so.
 
 ## 4. The summary and the distillate
 
@@ -356,6 +367,25 @@ errors. These rules matter more than anything above.
     "the largest so far": put them in a section that says "as of" a month and year, so a later
     edit knows what to refresh. A dated section is a snapshot, not a promise of upkeep: refresh it
     only when the note is edited for another reason.
+15. **Attribute each position to the person who holds it.** When a note contrasts schools or
+    authors, every claim says whose view it is and rests on that author's own work or a source
+    that states it. A draft gave Strauss and Corbin's view of the literature (read it early, as a
+    source of sensitivity) as Glaser's, who said the opposite.
+16. **Check what a source argues, not only that it exists.** Read its abstract or the
+    publisher's description and make sure it supports the sentence that cites it. A paper whose
+    title criticizes a theory is not support for that theory. If you can open neither the work
+    nor its abstract, cut the claim instead of keeping it with an "unverified" note.
+17. **Keep look-alike distinctions apart.** When a framework has two distinctions that resemble
+    each other, state each from its source and never map one onto the other. A draft equated
+    critical realism's three domains (real, actual, empirical) with its two dimensions
+    (intransitive, transitive).
+18. **A worked example must agree with its own data.** Every code, category or conclusion drawn
+    from made-up excerpts points to excerpts that actually contain it, quoted word for word.
+    Don't claim the example's result is new or "absent from the literature".
+19. **Crossref describes the edition the DOI points to.** A reissue's record gives the reissue
+    year and sometimes the wrong author or subtitle. Take the original publisher, year and
+    authors from the book or a library record, and when the link is a later edition, say so
+    ("링크는 3판").
 
 ### Known traps (each one appeared in an earlier draft)
 
@@ -372,6 +402,13 @@ errors. These rules matter more than anything above.
 | ranges in Korean | `1~4쪽과 5~6쪽` (renders with "4쪽과 5" struck through) | `1–4쪽과 5–6쪽` |
 | translationese | 세 단계를 가진다, 수집되어진다, 연구자에 의해 만들어진다 | 세 단계가 있다, 수집된다, 연구자가 만든다 (STYLE-KO.md, section 6) |
 | Sources link text | the full URL as the link text | a short label (itl.nist.gov, 1.3.6.6); a long URL can't wrap and scrolls the page sideways on a phone |
+| Korean brackets | 》근거이론의 발견《, 〈논문 제목〉 | 『근거이론의 발견』, 「논문 제목」 (`npm run check` flags the wrong ones) |
+| Korean names | 스트라스, 그라제리안 | 스트라우스, 글레이저 (STYLE-KO.md, section 2) |
+| Glaser on the literature | the literature in the field sharpens sensitivity (that is Strauss and Corbin, 1990) | don't read the substantive literature until categories emerge; sensitivity comes from theoretical codes (Glaser, 1978, 1992) |
+| grounded theory coding | axial coding as part of Glaser's method | Glaser: open, selective, theoretical coding. Strauss and Corbin: open, axial, selective |
+| epistemic fallacy | mistaking empirical data for real structures | reducing what exists to what can be known (Bhaskar, 1975); collapsing the domains is its consequence |
+| domains and dimensions | the real is intransitive, the empirical is transitive | the three domains are all on the object (intransitive) side; the transitive dimension is knowledge |
+| social structures | exist independently of society | depend on people's activities and concepts, but exist apart from the theories about them (Bhaskar, 1979) |
 
 ## 8. Template for a long note
 
@@ -434,6 +471,8 @@ Go through this list and fix anything that fails. Then report which items you co
 - [ ] The figure was rendered and checked: no label crosses a curve, region labels sit in their
       regions, and it reads in dark mode.
 - [ ] Every cited work is in `## Sources` with a link, and every DOI was resolved, not recalled.
+- [ ] Each source supports the sentence that cites it (its abstract was read), and each view in
+      a comparison is given to the author who holds it (section 7, rules 15–17).
 - [ ] Each cited work is described by what its abstract says, and each is used in the text.
 - [ ] Every "because", "causes" or "the reason" has a source or a calculation behind it, and
       every direction (high/low, up/down, toward/away from the null) was checked.
@@ -480,9 +519,11 @@ separate review pass took place.
 These notes show the target quality. Give a drafting model the one closest to the
 new note's topic:
 
-- `grounded-theory-first-look.md` (`근거이론`, `방법론`): the site's first sample note. One
-  made-up worked example (three interview excerpts) carried through every section, Korean terms
-  with the originals, a 참고문헌 list. It is marked `rough` because its last section has not been
-  checked against the primary sources yet.
+- `glaserian-emergence-vs-forcing.md` (`근거이론`): one made-up worked example (three interview
+  excerpts) carried through every section, each position attributed to its author, a comparison
+  table, Korean terms with the originals, a 참고문헌 list.
+- `naive-realism.md` (`실재론`): a made-up survey example with computed numbers, two look-alike
+  distinctions kept apart (domains and dimensions), and what the theory changes in research
+  practice.
 
 When a new note becomes a better example, add it here and add any new trap to section 7.
