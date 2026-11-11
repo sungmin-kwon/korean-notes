@@ -18,8 +18,8 @@ export const SITE = {
   distillateLabel: '요지',
   // Line on the 404 page.
   notFound: '없는 페이지이거나 다른 곳으로 옮겨진 페이지입니다.',
-  // Label of the footer menu that lists the sites in FAMILY.
-  familyLabel: '느슨하게 이어진 노트 모음',
+  // Heading of the list of the other sites in FAMILY (header menu and footer line).
+  familyLabel: '다른 노트 모음',
   // false: `npm run check` rejects "my lab", "our university" and the like in notes.
   allowAffiliation: false,
   // Old paths (without the base) that send readers elsewhere, e.g. notes that moved to a
@@ -92,7 +92,7 @@ export const TAGS = [
 ];
 
 /**
- * The sites in the family, listed in the footer menu of every page and on the About page.
+ * The sites in the family, listed in the header menu and footer of every page and on the About page.
  * `url` is the site's root. `lang` is the site's language, so that an entry is marked up in its
  * own language on a site whose language differs (the Korean site lists the English ones). Keep this list the same in every site.
  */
