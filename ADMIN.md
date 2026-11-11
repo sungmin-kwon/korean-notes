@@ -8,7 +8,7 @@ This file is not deployed, but the repository is public, so anyone can read it a
 
 | status | date | note | tags | model |
 | --- | --- | --- | --- | --- |
-| visible | 2026-11-11 | [글레이저의 근거이론: 출현인가, 강제인가](src/content/notes/glaserian-emergence-vs-forcing.md) | 근거이론 | Mistral Large 4, Claude Opus 5.5 |
+| visible | 2026-11-11 | [근거이론의 두 갈래: 글레이저와 스트라우스·코빈](src/content/notes/glaserian-emergence-vs-forcing.md) | 근거이론 | Mistral Large 4, Claude Opus 5.5 |
 | visible | 2026-11-11 | [소박한 실재론: 보이는 대로가 전부는 아니다](src/content/notes/naive-realism.md) | 실재론 | Mistral Large 4, Claude Opus 5.5 |
 
 - **visible**: on the index, tag pages, RSS and search.
