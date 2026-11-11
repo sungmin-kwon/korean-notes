@@ -54,6 +54,8 @@
 | category / property / dimension | 범주 / 속성 / 차원 | |
 | core category | 핵심 범주 | |
 | theoretical coding, coding family | 이론적 코딩, 코딩 가족 | 글레이저 |
+| emergence (근거이론) | 출현 | 글레이저. 국내 근거이론 문헌의 관례다(김지은, 2019). 창발로 옮기지 않는다 |
+| forcing | 강제 | 강요라고도 한다(최귀순, 2005). 글레이저가 스트라우스와 코빈을 비판하는 말이다. 스트라우스와 코빈의 방법을 중립적으로 설명할 때 쓰지 않고, 쓸 때는 "글레이저가 강제라고 비판한다"처럼 누구의 평가인지 밝힌다 |
 | memo, memo-writing | 메모, 메모 쓰기 | |
 | paradigm model | 패러다임 모형 | 스트라우스와 코빈 |
 | constructivist grounded theory | 구성주의 근거이론 | 차마즈 |
@@ -66,7 +68,7 @@
 | generative mechanism | 발생기제 | 생성기제라고도 한다 |
 | intransitive / transitive dimension | 자동적 차원 / 타동적 차원 | |
 | epistemic fallacy | 인식적 오류 | |
-| stratification, emergence | 층화, 창발 | |
+| stratification, emergence | 층화, 창발 | 비판적 실재론의 emergence. 근거이론의 emergence는 출현이다 |
 | abduction / retroduction | 귀추 / 역행추론 | 둘은 다른 개념이다. 섞어 쓰지 않는다 |
 | induction / deduction | 귀납 / 연역 | |
 | ontology / epistemology | 존재론 / 인식론 | |

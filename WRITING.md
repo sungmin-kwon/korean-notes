@@ -409,6 +409,9 @@ errors. These rules matter more than anything above.
 | Korean names | 스트라스, 그라제리안 | 스트라우스, 글레이저 (STYLE-KO.md, section 2) |
 | Glaser on the literature | the literature in the field sharpens sensitivity (that is Strauss and Corbin, 1990) | don't read the substantive literature until categories emerge; sensitivity comes from theoretical codes (Glaser, 1978, 1992) |
 | grounded theory coding | axial coding as part of Glaser's method | Glaser: open, selective, theoretical coding. Strauss and Corbin: open, axial, selective |
+| emergence in Korean grounded theory | 창발 (the critical-realism term) | 출현, as Korean grounded theory literature and the Glaser translation use it (STYLE-KO.md, section 2) |
+| forcing | 강제 as a neutral label for Strauss and Corbin's method | Glaser's charge against Strauss and Corbin, attributed to him; they never call their own method forcing |
+| Korean terminology | terms translated from English sources by the drafter | terms checked against Korean literature in the field (KCI papers, published translations), cited in the note |
 | epistemic fallacy | mistaking empirical data for real structures | reducing what exists to what can be known (Bhaskar, 1975); collapsing the domains is its consequence |
 | domains and dimensions | the real is intransitive, the empirical is transitive | the three domains are all on the object (intransitive) side; the transitive dimension is knowledge |
 | social structures | exist independently of society | depend on people's activities and concepts, but exist apart from the theories about them (Bhaskar, 1979) |
