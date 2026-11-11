@@ -71,7 +71,10 @@ remember nothing else from this file, follow these. Details are in the sections 
 
 ## 1a. Korean
 
-The rules in section 1 apply, with these additions for Korean prose.
+**The full Korean style sheet is [`STYLE-KO.md`](STYLE-KO.md), written in Korean. Read it before
+drafting a note, and paste its checklist (section 9) into the PR.** It covers register, the site's
+standard translations of terms, punctuation, spacing, the Korean citation format, and the
+translationese that machine drafts fall into. The short version:
 
 - **한다체** in notes: "근거이론은 … 방법이다", not "방법입니다". (The site's interface text and the
   About page use 합니다체; notes don't.)
@@ -92,6 +95,8 @@ The rules in section 1 apply, with these additions for Korean prose.
   lists of full sentences. Don't use an em dash in body text; one in `summary` is fine.
 - **Spacing**: follow standard 띄어쓰기. The site breaks lines between words (word-break:
   keep-all), so a missing space glues two words into one long unbreakable one.
+- **Ranges** take an en dash (45–60쪽), never a tilde: two single tildes on a line turn the text
+  between them into strikethrough on this site.
 - **Quoting a translation**: say whose translation it is. A translation made for the note is
   marked as such ("인용자 번역").
 
@@ -364,6 +369,8 @@ errors. These rules matter more than anything above.
 | distillate | ends with a `[link](note:…)` | plain text; the link goes in the body |
 | Hangul in italics | `*발견*` (slanted artificially, hard to read) | **bold**, or 『』 for a title |
 | translated terms | a different Korean term for the same concept in each section | one term, with the original in parentheses on first use |
+| ranges in Korean | `1~4쪽과 5~6쪽` (renders with "4쪽과 5" struck through) | `1–4쪽과 5–6쪽` |
+| translationese | 세 단계를 가진다, 수집되어진다, 연구자에 의해 만들어진다 | 세 단계가 있다, 수집된다, 연구자가 만든다 (STYLE-KO.md, section 6) |
 | Sources link text | the full URL as the link text | a short label (itl.nist.gov, 1.3.6.6); a long URL can't wrap and scrolls the page sideways on a phone |
 
 ## 8. Template for a long note
