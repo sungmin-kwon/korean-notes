@@ -18,6 +18,8 @@ export const SITE = {
   distillateLabel: '요지',
   // Line on the 404 page.
   notFound: '없는 페이지이거나 다른 곳으로 옮겨진 페이지입니다.',
+  // Notes per page on the index and the tag pages; older notes go on page/2/, page/3/ and so on.
+  pageSize: 20,
   // Heading of the list of the other sites in FAMILY (header menu and footer line).
   familyLabel: '다른 노트 모음',
   // false: `npm run check` rejects "my lab", "our university" and the like in notes.
