@@ -57,6 +57,7 @@
 | paradigm model | 패러다임 모형 | 스트라우스와 코빈 |
 | constructivist grounded theory | 구성주의 근거이론 | 차마즈 |
 | critical realism | 비판적 실재론 | |
+| naïve realism | 소박한 실재론 | |
 | the real / the actual / the empirical | 실재적 영역 / 현실적 영역 / 경험적 영역 | 번역이 여럿이다. 처음에 원어를 밝힌다 |
 | generative mechanism | 발생기제 | 생성기제라고도 한다 |
 | intransitive / transitive dimension | 자동적 차원 / 타동적 차원 | |
