@@ -4,7 +4,7 @@
 //   on a phone. It lists titles only; the blurbs are on About. It opens and closes without
 //   JavaScript; Base.astro adds Escape and click-outside.
 // - footer: one plain line of links.
-import { SITE_FAMILY, SITE_FAMILY_LABEL, SITE_LANG, SITE_URL } from '../lib/site';
+import { SITE_FAMILY, SITE_FAMILY_HOME, SITE_LANG, SITE_URL, familyLabelParts } from '../lib/site';
 import { UI } from '../lib/i18n';
 
 interface Props {
@@ -15,6 +15,11 @@ const { place = 'header' } = Astro.props;
 const sameSite = (url: string) => url.replace(/\/+$/, '') === SITE_URL.replace(/\/+$/, '');
 const langOf = (s: { lang?: string }) => (s.lang && s.lang !== SITE_LANG ? s.lang : undefined);
 const others = SITE_FAMILY.filter((s) => !sameSite(s.url));
+// The label's braced words link to the page that lists every notebook (`familyLabel` and
+// `familyHome` in site.config.mjs); no link on that page itself.
+const [before, linked, after] = familyLabelParts();
+const onHome = SITE_FAMILY_HOME && Astro.url.pathname === new URL(SITE_FAMILY_HOME).pathname;
+const home = onHome ? undefined : SITE_FAMILY_HOME;
 ---
 
 {
@@ -22,7 +27,9 @@ const others = SITE_FAMILY.filter((s) => !sameSite(s.url));
     <details class="family">
       <summary>{UI.family}</summary>
       <div class="family-panel">
-        <p class="family-label">{SITE_FAMILY_LABEL}</p>
+        <p class="family-label">
+          {before}{home ? <a class="family-home" href={home}>{linked}</a> : linked}{after}
+        </p>
         <ul>
           {others.map((s) => (
             <li lang={langOf(s)}>
@@ -36,7 +43,7 @@ const others = SITE_FAMILY.filter((s) => !sameSite(s.url));
     </details>
   ) : (
     <p class="family-line">
-      {SITE_FAMILY_LABEL}:{' '}
+      {before}{home ? <a href={home}>{linked}</a> : linked}{after}:{' '}
       {others.map((s, i) => (
         <>
           {i > 0 && <span aria-hidden="true"> · </span>}

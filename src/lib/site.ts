@@ -29,6 +29,13 @@ export interface FamilySite {
 export const SITE_FAMILY: readonly FamilySite[] = FAMILY;
 /** Heading of the family list, in the header menu and the footer. */
 export const SITE_FAMILY_LABEL: string = SITE.familyLabel ?? 'part of a family of notebooks';
+/** The page that lists every notebook, which the braced words of the label link to. */
+export const SITE_FAMILY_HOME: string | undefined = SITE.familyHome;
+/** The family label split around its braced words: [before, linked, after]. */
+export function familyLabelParts(): [string, string, string] {
+  const m = SITE_FAMILY_LABEL.match(/^(.*)\{(.+)\}(.*)$/);
+  return m ? [m[1], m[2], m[3]] : [SITE_FAMILY_LABEL, '', ''];
+}
 
 /**
  * Web fonts: an optional stylesheet URL (e.g. Google Fonts) and the font stacks for body text
