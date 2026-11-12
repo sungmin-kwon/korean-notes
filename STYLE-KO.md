@@ -75,13 +75,20 @@
 | structure and agency | 구조와 행위주체 | 행위성이라고도 한다 |
 | positivism / interpretivism | 실증주의 / 해석주의 | |
 | mixed methods | 혼합연구방법 | |
+| Kodály method / concept | 코다이 교수법 | 국내 문헌에서 가장 흔한 이름이다(양종모, 2022). 코다이 음악교수법, 코다이 개념이라고도 한다 |
+| movable do / fixed do | 이동도법 / 고정도법 | 서종우(2008) |
+| solfa syllables | 계이름 | 음이름(C, D… / 다, 라…)과 구분한다. 한국코다이협회는 상대 계명창이라고 쓴다 |
+| hand signs | 손기호 | 커웬의 손기호. 손 기호로 띄어 쓰기도 한다(서종우, 2008) |
+| rhythm syllables | 리듬 음절 | 초등 음악 교과서의 표기다(타, 티티, 타아, 쉼). 리듬이름이라고도 한다(서종우, 2008) |
+| pentatonic scale | 5음 음계 | |
+| inner hearing | 내청 | |
 
 ### 사람 이름
 
 - 외국 학자의 이름은 **외래어 표기법**에 따라 한글로 적고, 처음 나올 때 원어 이름을 괄호에 쓴다:
   로이 바스카(Roy Bhaskar), 그 뒤로는 성만: 바스카.
 - 이 사이트의 표기: 글레이저(Glaser), 스트라우스(Strauss), 코빈(Corbin), 차마즈(Charmaz),
-  바스카(Bhaskar), 세이어(Sayer), 아처(Archer).
+  바스카(Bhaskar), 세이어(Sayer), 아처(Archer), 코다이(Kodály), 커웬(Curwen).
 - 한국 학자는 처음부터 한글 이름을 쓴다. 존칭(교수, 선생)은 붙이지 않는다.
 
 ## 3. 문장 부호

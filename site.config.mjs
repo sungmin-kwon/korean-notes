@@ -4,10 +4,10 @@
 // Plain JavaScript, so astro.config.mjs, the scripts and the TypeScript code can all read it.
 
 export const SITE = {
-  // Working title, proposed for Sungmin to confirm: 근거(grounds, as in 근거이론) and 실재(the real,
-  // as in 실재론).
-  title: '근거와 실재',
-  description: '근거이론과 실재론을 중심으로, 사회과학 연구의 방법과 그 철학적 바탕을 정리한 노트.',
+  // Renamed from the working title 근거와 실재 on 2026-11-12, when the notes went beyond
+  // grounded theory and realism (Sungmin's choice).
+  title: '인문학 개론',
+  description: '근거이론, 실재론, 음악교육을 비롯해 오래 붙들어 온 질문과 개념을 정리한 한국어 노트.',
   // GitHub Pages project site. For a custom domain, set url to it and base to '/'.
   url: 'https://sungmin-kwon.github.io/korean-notes/',
   base: '/korean-notes/',
@@ -26,7 +26,11 @@ export const SITE = {
   allowAffiliation: false,
   // Old paths (without the base) that send readers elsewhere, e.g. notes that moved to a
   // sibling site: { '/notes/old-id': 'https://…/notes/old-id/' }.
-  redirects: { '/notes/grounded-theory-first-look': 'https://sungmin-kwon.github.io/korean-notes/notes/glaserian-emergence-vs-forcing/' },
+  // The 방법론 tag (/tags/methodology/) was removed on 2026-11-12 with no notes left in it.
+  redirects: {
+    '/notes/grounded-theory-first-look': 'https://sungmin-kwon.github.io/korean-notes/notes/glaserian-emergence-vs-forcing/',
+    '/tags/methodology': 'https://sungmin-kwon.github.io/korean-notes/',
+  },
   // Single interface strings to override (see src/lib/i18n.ts); the Korean set is built in.
   ui: {},
   // Web fonts. IBM Plex Sans KR is the Korean member of the Plex family the other sites use,
@@ -86,10 +90,10 @@ export const TAGS = [
       '실재론(realism): 연구가 다루는 세계가 우리의 인식과 따로 존재한다는 입장. 특히 바스카의 비판적 실재론과 사회과학 방법론.',
   },
   {
-    name: '방법론',
-    slug: 'methodology',
-    blurb: '질적·양적 연구 설계와 그 밖의 연구 관심사.',
-    description: '방법론: 연구 설계, 자료 수집과 분석, 그리고 위 두 태그에 들지 않는 연구 관심사.',
+    name: '음악교육',
+    slug: 'music-education',
+    blurb: '음악을 어떻게 가르치고 배우는가: 교수법과 그 바탕.',
+    description: '음악교육: 코다이 교수법을 비롯한 음악 교수법과 그 바탕이 되는 생각.',
   },
 ];
 
@@ -112,9 +116,9 @@ export const FAMILY = [
     blurb: 'study and research notes from graduate school in data science, mostly statistics and genetics.',
   },
   {
-    title: '근거와 실재',
+    title: '인문학 개론',
     url: 'https://sungmin-kwon.github.io/korean-notes/',
     lang: 'ko',
-    blurb: '근거이론과 실재론을 비롯한 사회과학 방법론 노트, 한국어로.',
+    blurb: '근거이론, 실재론, 음악교육 등을 정리한 노트, 한국어로.',
   },
 ];
