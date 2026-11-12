@@ -5,9 +5,10 @@
 
 export const SITE = {
   // Renamed from the working title 근거와 실재 on 2026-11-12, when the notes went beyond
-  // grounded theory and realism (Sungmin's choice).
-  title: '인문학 개론',
-  description: '근거이론, 실재론, 음악교육을 비롯해 오래 붙들어 온 질문과 개념을 정리한 한국어 노트.',
+  // grounded theory and realism, then from 인문학 개론 to 사회학 개론 on 2026-11-13 (both
+  // Sungmin's choice).
+  title: '사회학 개론',
+  description: '근거이론, 실재론, 음악교육을 비롯해 오래 붙들어 온 질문과 개념을 정리한 노트.',
   // GitHub Pages project site. For a custom domain, set url to it and base to '/'.
   url: 'https://sungmin-kwon.github.io/korean-notes/',
   base: '/korean-notes/',
@@ -124,9 +125,9 @@ export const FAMILY = [
     blurb: 'notes that don’t yet clear the bar: they describe more than they explain.',
   },
   {
-    title: '인문학 개론',
+    title: '사회학 개론',
     url: 'https://sungmin-kwon.github.io/korean-notes/',
     lang: 'ko',
-    blurb: '근거이론, 실재론, 음악교육 등을 정리한 노트, 한국어로.',
+    blurb: '근거이론, 실재론, 음악교육 등을 정리한 노트.',
   },
 ];

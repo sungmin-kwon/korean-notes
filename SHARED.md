@@ -6,7 +6,7 @@ Two repositories are built from the same code:
   notebooks (notes from the 3-way distiller, working notes and purgatorial thoughts) as sections
   of one site, with a home page at the root. Until 2026-11 the first two were separate
   repositories, `3-way-distillation` and `working-notes`.
-- [인문학 개론](https://github.com/sungmin-kwon/korean-notes), in Korean (this repository).
+- [사회학 개론](https://github.com/sungmin-kwon/korean-notes), in Korean (this repository).
 
 The English repository has since moved to newer shared code (notebooks as sections), so for now
 shared changes are ported here by hand. To keep a fix from having to be made twice, every

@@ -1,4 +1,4 @@
-# 인문학 개론
+# 사회학 개론
 
 Source for a Korean-language notebook on grounded theory, realism, the methods and philosophy
 of social science research, and music education, published at <https://sungmin-kwon.github.io/korean-notes/>.

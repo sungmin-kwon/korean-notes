@@ -1,4 +1,4 @@
-# Writing notes for 인문학 개론
+# Writing notes for 사회학 개론
 
 This is the style and accuracy guide for the notes in `src/content/notes/`. It is written so that
 any model, including a small local one, can read it and draft a note that matches the existing
