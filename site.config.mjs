@@ -20,8 +20,10 @@ export const SITE = {
   notFound: '없는 페이지이거나 다른 곳으로 옮겨진 페이지입니다.',
   // Notes per page on the index and the tag pages; older notes go on page/2/, page/3/ and so on.
   pageSize: 10,
-  // Heading of the list of the other sites in FAMILY (header menu and footer line).
-  familyLabel: '다른 노트 모음',
+  // Heading of the list of the other sites in FAMILY (header menu and footer line). The words
+  // in braces link to `familyHome`, the page that lists every notebook.
+  familyLabel: '다른 {노트 모음}',
+  familyHome: 'https://sungmin-kwon.github.io/',
   // false: `npm run check` rejects "my lab", "our university" and the like in notes.
   allowAffiliation: false,
   // Old paths (without the base) that send readers elsewhere, e.g. notes that moved to a
@@ -114,6 +116,12 @@ export const FAMILY = [
     url: 'https://sungmin-kwon.github.io/working-notes/',
     lang: 'en',
     blurb: 'study and research notes from graduate school in data science, mostly statistics and genetics.',
+  },
+  {
+    title: 'purgatorial thoughts',
+    url: 'https://sungmin-kwon.github.io/purgatorial-thoughts/',
+    lang: 'en',
+    blurb: 'notes that don’t yet clear the bar: they describe more than they explain.',
   },
   {
     title: '인문학 개론',
