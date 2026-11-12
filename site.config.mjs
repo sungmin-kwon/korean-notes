@@ -119,6 +119,12 @@ export const FAMILY = [
     blurb: 'study and research notes from graduate school in data science, mostly statistics and genetics.',
   },
   {
+    title: 'marginalia',
+    url: 'https://sungmin-kwon.github.io/marginalia/',
+    lang: 'en',
+    blurb: 'notes on history and other things outside science, argued from the sources.',
+  },
+  {
     title: 'purgatorial thoughts',
     url: 'https://sungmin-kwon.github.io/purgatorial-thoughts/',
     lang: 'en',
