@@ -30,7 +30,7 @@ model: [Claude Opus 5.5]
 
 ## 이동도법과 계이름
 
-코다이 교수법은 **이동도법**(movable do)으로 노래한다. 으뜸음을 언제나 도로 부르고, 나머지 음도 으뜸음과의 관계에 따라 이름을 붙이는 방식이다. 이렇게 붙인 이름이 **계이름**이고, 한국코다이협회는 이를 상대 계명창이라고도 부른다. 국제코다이협회에 따르면 이동도법의 계이름 읽기는 19세기 영국에서 세라 글러버(Sarah Glover)와 존 커웬(John Curwen)이 노래하는 사람에게 악보 읽기를 가르치는 도구로 쓰던 것이고, 코다이가 이를 받아들였다.
+코다이 교수법은 **이동도법**(movable do)으로 노래한다. 장조의 으뜸음을 언제나 도로 부르고, 나머지 음도 으뜸음과의 관계에 따라 이름을 붙이는 방식이다. 단조에서는 으뜸음을 라로 부른다(국제코다이협회). 이렇게 붙인 이름이 **계이름**이고, 한국코다이협회는 이를 상대 계명창이라고도 부른다. 국제코다이협회에 따르면 이동도법의 계이름 읽기는 19세기 영국에서 세라 글러버(Sarah Glover)와 존 커웬(John Curwen)이 노래하는 사람에게 악보 읽기를 가르치는 도구로 쓰던 것이고, 코다이가 이를 받아들였다.
 
 예시 가락을 세 조에서 부르면 차이가 드러난다. 아래 표의 음이름은 각 조의 으뜸음(괄호 안)에서 계산했다.
 
@@ -58,7 +58,7 @@ model: [Claude Opus 5.5]
 
 코다이 교수법은 쉬운 것에서 어려운 것으로 순서를 정해 가르친다. 김기라(2003)는 솔, 미, 라, 도, 레의 다섯 음을 먼저 가르치고 파와 시는 나중에 다룬다고 정리한다. 반음이 없는 이 다섯 음이 **5음 음계**(pentatonic scale)이고, 이연경(1990)도 5음 음계를 초기 음악 훈련의 기본 재료로 꼽는다. 예시 가락은 그 첫 단계인 솔–미에 라 하나를 더한 단계에 있다.
 
-새 음 하나를 가르치는 과정에도 순서가 있다. Cha(2023)는 코다이 교수법의 단계를 준비, 제시, 연습, 평가로 나누어 초등 수업에 적용했다. 예시 가락으로 라를 가르친다면 다음과 같다.
+새 음 하나를 가르치는 과정에도 순서가 있다. 차동주(2023)는 코다이 교수법의 단계를 준비, 제시, 연습, 평가로 나누어 초등 수업에 적용했다. 예시 가락으로 라를 가르친다면 다음과 같다.
 
 | 단계 | 예시 가락으로 하는 일 |
 | --- | --- |
@@ -95,9 +95,9 @@ model: [Claude Opus 5.5]
 - 이동재, 「초등학교 음악교과서 국악 제재곡 및 지도내용 선정 방안」, 『국악교육연구』 2(2), 103–126, 2008. [earticle](https://www.earticle.net/Article/A312063)
 - 이연경, 「Kodaly 음악지도법과 국내 적용 방법에 관한 연구」, 『음악교육연구』 9, 57–96, 1990. [교보 스콜라](https://scholar.kyobobook.co.kr/article/detail/4050026247064)
 - 이영미, 「코다이 개념의 솔페지 활용」, 『음악이론포럼』 9, 91–112, 2002. [KoreaScholar](https://db.koreascholar.com/Article/Detail/340469)
+- 차동주, 「음악적 이해의 폭넓은 확장을 위한 코다이 교수법과 상징적 표현 활동의 적용」, 『음악교육연구』 52(4), 189–209, 2023. [kjrme.org](https://www.kjrme.org/detail/30006464)
 - 한국코다이협회, 「졸탄 코다이」. [kodaly.or.kr](https://www.kodaly.or.kr/%EC%A1%B8%ED%83%84-%EC%BD%94%EB%8B%A4%EC%9D%B4)
 - 초등 음악 교과서 디지털 자료, 「노래에 나오는 리듬꼴을 리듬 음절로 익히고 리듬 악기로 쳐 봅시다」. [m-teacher.co.kr](https://ele2.m-teacher.co.kr/files/contents/5bf4ea22bc185/contents/m03_02/m03_02_06/m03_02_06_07.html)
-- D.-J. Cha, 「음악적 이해의 폭넓은 확장을 위한 코다이 교수법과 상징적 표현 활동의 적용」, 『음악교육연구』 52(4), 189–209, 2023. [kjrme.org](https://www.kjrme.org/detail/30006464)
 - International Kodály Society, "The Kodály Concept". [iks.hu](https://iks.hu/kodaly-concept)
 - International Kodály Society, "Educational Activities". [iks.hu](https://iks.hu/kodaly_education/)
 - UNESCO, "Safeguarding of the folk music heritage by the Kodály concept" (Register of Good Safeguarding Practices, 2016). [ich.unesco.org](https://ich.unesco.org/en/BSP/safeguarding-of-the-folk-music-heritage-by-the-kodaly-concept-01177)
