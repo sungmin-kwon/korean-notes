@@ -3,9 +3,8 @@
 Source for a Korean-language notebook on grounded theory, realism, the methods and philosophy
 of social science research, and music education, published at <https://sungmin-kwon.github.io/korean-notes/>.
 
-It is one of a family of sites built from the same code. The siblings are
-[notes from the 3-way distiller](https://github.com/sungmin-kwon/3-way-distillation) and
-[working notes](https://github.com/sungmin-kwon/working-notes).
+It is one of a family of sites built from the same code. Its siblings, the English notebooks,
+live in one repository, [sungmin-kwon.github.io](https://github.com/sungmin-kwon/sungmin-kwon.github.io).
 [`SHARED.md`](SHARED.md) lists which files are shared and how to keep them in sync.
 
 It is a static [Astro](https://astro.build) site: Markdown in, plain HTML and CSS out.
