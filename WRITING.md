@@ -412,6 +412,7 @@ errors. These rules matter more than anything above.
 | emergence in Korean grounded theory | 창발 (the critical-realism term) | 출현, as Korean grounded theory literature and the Glaser translation use it (STYLE-KO.md, section 2) |
 | forcing | 강제 as a neutral label for Strauss and Corbin's method | Glaser's charge against Strauss and Corbin, attributed to him; they never call their own method forcing |
 | Korean terminology | terms translated from English sources by the drafter | terms checked against Korean literature in the field (KCI papers, published translations), cited in the note |
+| naïve realism in Korean | 소박한 실재론 (a drafter's own rendering) | 소박 실재론; and 개방체계 / 폐쇄체계, 가추 as in Korean critical realism literature (STYLE-KO.md, section 2) |
 | epistemic fallacy | mistaking empirical data for real structures | reducing what exists to what can be known (Bhaskar, 1975); collapsing the domains is its consequence |
 | domains and dimensions | the real is intransitive, the empirical is transitive | the three domains are all on the object (intransitive) side; the transitive dimension is knowledge |
 | social structures | exist independently of society | depend on people's activities and concepts, but exist apart from the theories about them (Bhaskar, 1979) |

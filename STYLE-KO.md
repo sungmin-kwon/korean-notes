@@ -39,7 +39,7 @@
 
 ### 이 사이트의 번역어
 
-이 표는 이 사이트에서 쓰는 번역어다. 학계 전체의 표준이라는 뜻은 아니다. 표에 없는 용어는
+이 표는 이 사이트에서 쓰는 번역어다. 학계 전체의 표준이라는 뜻은 아니다. 비고에 문헌을 적은 번역어는 그 문헌에서 확인한 것이다. 번역어는 영어 원문에서 직접 옮기지 말고, 국내 문헌과 번역서에서 확인해 고른다. 표에 없는 용어는
 국내 학술지(KCI)에서 가장 흔히 쓰는 번역어를 찾아 쓰고, PR에 그 근거를 적는다. 새 용어는 이
 표에 더한다.
 
@@ -60,16 +60,16 @@
 | paradigm model | 패러다임 모형 | 스트라우스와 코빈 |
 | constructivist grounded theory | 구성주의 근거이론 | 차마즈 |
 | critical realism | 비판적 실재론 | |
-| naïve realism | 소박한 실재론 | |
+| naïve realism | 소박 실재론 | 소박실재론으로 붙여 쓰기도 한다. 직접적 실재론, 상식 실재론이라고도 한다. "소박한 실재론"으로 풀어 쓰지 않는다 |
 | empirical realism | 경험적 실재론 | 바스카가 비판한 흄식 입장 |
-| open / closed system | 열린 체계 / 닫힌 체계 | |
-| extensive / intensive research | 외연적 연구 / 내포적 연구 | 세이어. 내포적 연구는 집약적 연구라고도 한다 |
-| the real / the actual / the empirical | 실재적 영역 / 현실적 영역 / 경험적 영역 | 번역이 여럿이다. 처음에 원어를 밝힌다 |
+| open / closed system | 개방체계 / 폐쇄체계 | 국내 비판적 실재론 문헌의 번역어다(아처 외 엮음, 이기홍 옮김, 2005; 김해보·장원호, 2020). 열린 체계 / 닫힌 체계라고도 한다 |
+| extensive / intensive research | 외연적 연구 / 내포적 연구 | 세이어. 이기홍 옮김 『사회과학 방법론』(2013)의 번역어다. 내포적 연구는 집약적 연구라고도 한다 |
+| the real / the actual / the empirical | 실재적 영역 / 현실적 영역 / 경험적 영역 | 김해보·장원호(2020). 실재적인 것 / 현실적인 것 / 경험적인 것이라고도 한다. 처음에 원어를 밝힌다 |
 | generative mechanism | 발생기제 | 생성기제라고도 한다 |
-| intransitive / transitive dimension | 자동적 차원 / 타동적 차원 | |
+| intransitive / transitive dimension | 자동적 차원 / 타동적 차원 | 자동적 대상 / 타동적 대상이라고도 한다(이영철, 2010) |
 | epistemic fallacy | 인식적 오류 | |
-| stratification, emergence | 층화, 창발 | 비판적 실재론의 emergence. 근거이론의 emergence는 출현이다 |
-| abduction / retroduction | 귀추 / 역행추론 | 둘은 다른 개념이다. 섞어 쓰지 않는다 |
+| stratification, emergence | 층화, 창발 | 비판적 실재론의 emergence. 발현이라고도 한다(김해보·장원호, 2020). 근거이론의 emergence는 출현이다 |
+| abduction / retroduction | 가추 / 역행추론 | 국내 비판적 실재론 문헌은 가추라고 쓴다(김해보·장원호, 2020). 귀추라고도 한다. 둘은 다른 개념이다. 섞어 쓰지 않는다 |
 | induction / deduction | 귀납 / 연역 | |
 | ontology / epistemology | 존재론 / 인식론 | |
 | structure and agency | 구조와 행위주체 | 행위성이라고도 한다 |
