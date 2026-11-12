@@ -1,12 +1,15 @@
 # Shared files
 
-Each site is one of a family of notebook sites built from the same code:
+Two repositories are built from the same code:
 
-- [notes from the 3-way distiller](https://github.com/sungmin-kwon/3-way-distillation)
-- [working notes](https://github.com/sungmin-kwon/working-notes)
-- [인문학 개론](https://github.com/sungmin-kwon/korean-notes), in Korean
+- [sungmin-kwon.github.io](https://github.com/sungmin-kwon/sungmin-kwon.github.io): the English
+  notebooks (notes from the 3-way distiller, working notes and purgatorial thoughts) as sections
+  of one site, with a home page at the root. Until 2026-11 the first two were separate
+  repositories, `3-way-distillation` and `working-notes`.
+- [인문학 개론](https://github.com/sungmin-kwon/korean-notes), in Korean (this repository).
 
-To keep a fix from having to be made three times, every
+The English repository has since moved to newer shared code (notebooks as sections), so for now
+shared changes are ported here by hand. To keep a fix from having to be made twice, every
 setting that differs between the sites lives in `site.config.mjs`, and the rest of the code is
 the same file in every repo.
 
