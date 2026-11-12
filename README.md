@@ -1,7 +1,7 @@
-# 근거와 실재
+# 인문학 개론
 
-Source for a Korean-language notebook on grounded theory, realism and the methods and philosophy
-of social science research, published at <https://sungmin-kwon.github.io/korean-notes/>.
+Source for a Korean-language notebook on grounded theory, realism, the methods and philosophy
+of social science research, and music education, published at <https://sungmin-kwon.github.io/korean-notes/>.
 
 It is one of a family of sites built from the same code. The siblings are
 [notes from the 3-way distiller](https://github.com/sungmin-kwon/3-way-distillation) and

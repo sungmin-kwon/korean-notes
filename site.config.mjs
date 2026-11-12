@@ -4,10 +4,10 @@
 // Plain JavaScript, so astro.config.mjs, the scripts and the TypeScript code can all read it.
 
 export const SITE = {
-  // Working title, proposed for Sungmin to confirm: 근거(grounds, as in 근거이론) and 실재(the real,
-  // as in 실재론).
-  title: '근거와 실재',
-  description: '근거이론과 실재론을 중심으로, 사회과학 연구의 방법과 그 철학적 바탕을 정리한 노트.',
+  // Renamed from the working title 근거와 실재 on 2026-11-12, when the notes went beyond
+  // grounded theory and realism (Sungmin's choice).
+  title: '인문학 개론',
+  description: '근거이론, 실재론, 음악교육을 비롯해 오래 붙들어 온 질문과 개념을 정리한 한국어 노트.',
   // GitHub Pages project site. For a custom domain, set url to it and base to '/'.
   url: 'https://sungmin-kwon.github.io/korean-notes/',
   base: '/korean-notes/',
@@ -116,9 +116,9 @@ export const FAMILY = [
     blurb: 'study and research notes from graduate school in data science, mostly statistics and genetics.',
   },
   {
-    title: '근거와 실재',
+    title: '인문학 개론',
     url: 'https://sungmin-kwon.github.io/korean-notes/',
     lang: 'ko',
-    blurb: '근거이론과 실재론을 비롯한 사회과학 방법론 노트, 한국어로.',
+    blurb: '근거이론, 실재론, 음악교육 등을 정리한 노트, 한국어로.',
   },
 ];
