@@ -26,7 +26,11 @@ export const SITE = {
   allowAffiliation: false,
   // Old paths (without the base) that send readers elsewhere, e.g. notes that moved to a
   // sibling site: { '/notes/old-id': 'https://…/notes/old-id/' }.
-  redirects: { '/notes/grounded-theory-first-look': 'https://sungmin-kwon.github.io/korean-notes/notes/glaserian-emergence-vs-forcing/' },
+  // The 방법론 tag (/tags/methodology/) was removed on 2026-11-12 with no notes left in it.
+  redirects: {
+    '/notes/grounded-theory-first-look': 'https://sungmin-kwon.github.io/korean-notes/notes/glaserian-emergence-vs-forcing/',
+    '/tags/methodology': 'https://sungmin-kwon.github.io/korean-notes/',
+  },
   // Single interface strings to override (see src/lib/i18n.ts); the Korean set is built in.
   ui: {},
   // Web fonts. IBM Plex Sans KR is the Korean member of the Plex family the other sites use,
@@ -86,10 +90,10 @@ export const TAGS = [
       '실재론(realism): 연구가 다루는 세계가 우리의 인식과 따로 존재한다는 입장. 특히 바스카의 비판적 실재론과 사회과학 방법론.',
   },
   {
-    name: '방법론',
-    slug: 'methodology',
-    blurb: '질적·양적 연구 설계와 그 밖의 연구 관심사.',
-    description: '방법론: 연구 설계, 자료 수집과 분석, 그리고 위 두 태그에 들지 않는 연구 관심사.',
+    name: '음악교육',
+    slug: 'music-education',
+    blurb: '음악을 어떻게 가르치고 배우는가: 교수법과 그 바탕.',
+    description: '음악교육: 코다이 교수법을 비롯한 음악 교수법과 그 바탕이 되는 생각.',
   },
 ];
 

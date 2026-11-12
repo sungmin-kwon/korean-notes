@@ -37,7 +37,7 @@ A longer note adds a title and, optionally, more:
 title: 이론적 표집
 date: 2026-11-12
 updated: 2026-11-20      # optional
-tags: [근거이론]          # 근거이론, 실재론 or 방법론; the list is in site.config.mjs
+tags: [근거이론]          # 근거이론, 실재론 or 음악교육; the list is in site.config.mjs
 summary: 목록에서 제목 아래에 보이는 한 줄.
 distillate: 글의 요지. 글 첫머리의 '요지' 상자에 보인다.
 rough: true              # unfinished thinking; shows a "미완" mark

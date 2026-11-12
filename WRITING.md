@@ -6,8 +6,8 @@ ones. Read all of it before drafting. If there is room in the context, also read
 note as a model to imitate (see [Reference notes](#reference-notes)).
 
 This site holds notes **in Korean** on grounded theory, realism and the methods and philosophy of
-social science research. The reader is an educated Korean reader who knows social science
-research, but not necessarily this method or school of thought. Write for that reader.
+social science research, and on music education. The reader is an educated Korean reader who knows
+the field in general, but not necessarily this method or school of thought. Write for that reader.
 
 This guide is in English so that any model can follow it, but **the notes themselves are written
 in Korean** (section 1a). The guide is shared with the other sites in the family. The parts that
@@ -111,7 +111,7 @@ it breaks links.
 title: Forward vs. reverse KL          # omit for a short note
 date: 2026-11-12                       # required, YYYY-MM-DD
 updated: 2026-11-20                    # only when a published note changes materially
-tags: [근거이론]                        # 근거이론, 실재론, 방법론; zero or more
+tags: [근거이론]                        # 근거이론, 실재론, 음악교육; zero or more
 summary: One line for the index.       # long notes
 distillate: The boiled-down version.   # long notes
 rough: true                            # unfinished thinking; leave out otherwise
@@ -123,8 +123,8 @@ reviewed_by: [Claude Opus 5.5]         # optional: model(s) that did a separate 
 ```
 
 - **Tags:** only these three: `근거이론` (grounded theory and its variants), `실재론` (realism,
-  above all critical realism, as a philosophy of social science) and `방법론` (research design and
-  other research interests that fit neither). The list lives in `site.config.mjs`, where each tag
+  above all critical realism, as a philosophy of social science) and `음악교육` (music education:
+  teaching methods such as Kodály's and the ideas behind them). The list lives in `site.config.mjs`, where each tag
   also has a Latin `slug` for its URL (`/tags/grounded-theory/`). The build fails on any other
   tag. Don't invent new tags; ask first.
 - **File names** are in Latin letters and kebab-case, even for a Korean note
@@ -424,7 +424,7 @@ errors. These rules matter more than anything above.
 title: <Short noun phrase or question>
 summary: <What it covers, in one line> — <part>, <part>, <part>.
 date: YYYY-MM-DD
-tags: [<근거이론|실재론|방법론>]
+tags: [<근거이론|실재론|음악교육>]
 distillate: <The answer in one sentence.> <The key number from the worked example.> <The main limit or caveat.>
 model: [<the model writing this>]
 ---
