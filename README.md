@@ -50,6 +50,18 @@ reviewed_by: [Claude Opus 5.5] # optional: model(s) that did a separate review p
 - **Math:** `$inline$` and `$$display$$` (KaTeX), with `$$` on lines of their own.
 - **Links between notes:** `[text](note:other-note-id)`.
 
+## Maintaining the notebook
+
+These steps are for whoever looks after the site. A drafting model doesn't need them, so they
+live here rather than in `WRITING.md`.
+
+- **Unhiding a note.** Delete its `hidden: true` line, run `npm run build` (which also refreshes
+  `ADMIN.md`), check that the note and the links to it render, and commit both files.
+- **Reference notes.** When a new note becomes a better model of style and depth, add it to the
+  list at the end of `WRITING.md`.
+- **Known traps.** When a review finds a new kind of mistake, add a row to the traps table in
+  `WRITING.md` section 7 (see `REVIEWING.md`).
+
 ## Commands
 
 ```sh
